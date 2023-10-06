@@ -277,4 +277,5 @@ form {margin-left: 0px;}
     }   
 h1, .hello, form {margin-inline: auto;}
     .logobutton {margin-left: 280px;}
+    .heroDesktop {object-position: 100% 10%;}
 }
