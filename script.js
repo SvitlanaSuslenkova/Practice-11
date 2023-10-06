@@ -11,7 +11,7 @@
         document.form1.email.focus();
         input.value="Your email was submitted!";
   
-      return true; /*What does it give?*/ 
+      return true; /*What does it give? It was in standart code for validation of email.*/ 
   } 
   else {
         errorCircle.style.display='block';
