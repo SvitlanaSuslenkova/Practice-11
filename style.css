@@ -271,7 +271,10 @@ form {margin-left: 0px;}
 .attribution { font-size: 11px; text-align: center; position: absolute; bottom: 8px;}
     }
 
-@media screen and (min-width: 1600px) {     
+@media screen and (min-width: 1735px) {  
+    main {
+        grid-template-columns: 1000px 1fr;
+    }   
 h1, .hello, form {margin-inline: auto;}
-       .logobutton {margin-left: 15vw;}
+    .logobutton {margin-left: 280px;}
 }
