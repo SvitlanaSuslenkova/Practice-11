@@ -11,13 +11,13 @@
         document.form1.email.focus();
         input.value="Your email was submitted!";
   
-      return true; /*What does it give? It was in standart code for validation of email.*/ 
+      return true;
   } 
   else {
         errorCircle.style.display='block';
         textError.style.display='block';
         document.form1.email.focus();
   
-      return false; /*What does it give?*/ 
+      return false; 
   }
   }
