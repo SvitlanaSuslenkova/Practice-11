@@ -230,7 +230,9 @@ form {
     }
     .sectionOne {aspect-ratio: 5/1;}
 
-    .logobutton {margin-left: 20.24%;
+    .logobutton {
+    margin-top: 30%;
+        margin-left: 20.24%;
     width: 32.15%;}
     
     .heroMobile {display: none;}
@@ -277,5 +279,9 @@ form {margin-left: 0px;}
     }   
 h1, .hello, form {margin-inline: auto;}
     .logobutton {margin-left: 280px;}
-    .heroDesktop {object-position: 100% 10%;}
+
+    .heroDesktop {
+       object-position: 100% 10%;
+    
+    }
 }
